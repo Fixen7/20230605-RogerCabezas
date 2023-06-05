@@ -1,5 +1,9 @@
- 175 mkdir 20230605-RogerCabezas
- 176  touch comandos.txt main.js index.html
+ 
+  172  mkdir 20230605-RogerCabezas
+  173  git init 
+  174  git remote add origin Fixen7/20230605-RogerCabezas
+  175  git status
+  176  touch comandos.txt main.js index.html
   177  git add .
   178  git commit -m "commit 01 de RogerCabezas"
   179  git status
@@ -15,7 +19,7 @@
   189  git remote -v
   190  git add .
   191  git commit -m "commit 02 de RogerCabezas"
-  192  git push 
+  192  git push
   193  git push origin feature
   194  git checkout main
   195  rm main.js resumeHardware.txt
@@ -28,7 +32,7 @@
   202  git revert
   203  git reset
   204  git reset --oneline
-  205  git reset 
+  205  git reset
   206  git reset
   207  git reset D
   208  git reset main.js
@@ -39,3 +43,7 @@
   213  mv main.js resumeHardware.txt
   214  mv index.html resumeSoftware.txt
   215  history
+  216  git add .
+  217  git commit -m "commit 03 de RogerCabezas"
+  218  git push origin main
+  219  history
